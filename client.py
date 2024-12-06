@@ -9,7 +9,7 @@ st.title("Language Translation App")
 st.write("Translate text into your chosen language.")
 
 # Dropdown for language selection
-language = st.selectbox("Select the target language:", ["French", "Spanish", "German", "Italian","Hindi"])
+language = st.selectbox("Select the target language:", ["French", "Spanish", "German", "Italian", "Hindi"])
 
 # Text input for the text to translate
 text_to_translate = st.text_area("Enter the text to translate:")
