@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Set the FastAPI endpoint URL
-api_url = "http://127.0.0.1:8000/chain"
+api_url = "https://language-translate-by-gemma2-9b-it-2.onrender.com/chain"
 
 # Streamlit UI
 st.title("Language Translation App")
